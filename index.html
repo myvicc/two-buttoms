@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        div {
+            background-color: darkgrey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #000;
+            border-radius: 10px;
+            width: 500px;
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
-
+<div>
+    <form action="" name="link">
+        <label for="address">url:</label>
+        <input type="text" name="address" id="address"/>
+        <button type="button" name="button">open</button>
+        
+    </form>
+</div>
+<script src="index.js"></script>
 </body>
-</html>
+ </html>
